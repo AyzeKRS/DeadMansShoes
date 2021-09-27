@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{d016a7a6-01c6-49ef-96a6-9b25aca446a5}">
+		<property name="assetPath">
+			<value>Oof3.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.65015873015873016</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{285cebb9-1715-4862-a147-7cfef691cb42}</destination>
+		</relationship>
+	</object>
+</objects>
