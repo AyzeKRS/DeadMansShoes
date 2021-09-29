@@ -37,7 +37,7 @@ public class FirstSubtitles : MonoBehaviour
         
         GetComponent<TypeWriter>().RunText("I've been working really hard", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("I think", player_text, 25.0f);
 
@@ -49,15 +49,15 @@ public class FirstSubtitles : MonoBehaviour
 
         GetComponent<TypeWriter>().RunText("But Dave is next in line", player_text, 25.0f);
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.5f);
 
         GetComponent<TypeWriter>().RunText("I could either be a better coder than him", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("or somehow get rid him...", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
         
         player_text.text = string.Empty;
 

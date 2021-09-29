@@ -98,11 +98,11 @@ public class ESubtitles : MonoBehaviour
 
         GetComponent<TypeWriter>().RunText("Impressive work", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.5f);
 
         GetComponent<TypeWriter>().RunText("Have another promotion", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.5f);
 
         boss_text.text = string.Empty;
 
@@ -135,15 +135,15 @@ public class ESubtitles : MonoBehaviour
 
         GetComponent<TypeWriter>().RunText("We're still unsure where our employees went", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4.0f);
 
         GetComponent<TypeWriter>().RunText("But you have done well", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("You've earned yourself another coffee", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         boss_text.text = string.Empty;
 
@@ -176,15 +176,15 @@ public class ESubtitles : MonoBehaviour
 
         GetComponent<TypeWriter>().RunText("What happened to all of our employees?", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("You work 'ruthlessly' and are reliable", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("I can see us working well together", boss_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         boss_text.text = string.Empty;
 

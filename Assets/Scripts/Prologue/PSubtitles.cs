@@ -39,11 +39,11 @@ public class PSubtitles : MonoBehaviour
 
         GetComponent<TypeWriter>().RunText("I'm running late, there is already a long queue", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("I need to get to the front. Quick.", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         player_text.text = string.Empty;
 

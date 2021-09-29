@@ -54,31 +54,31 @@ public class SecondSubtitles : MonoBehaviour
         
         GetComponent<TypeWriter>().RunText("The boss is about to promote either John or I", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4.0f);
 
         GetComponent<TypeWriter>().RunText("I HAVE to get that promotion", player_text, 25.0f);
 
-        yield return new WaitForSeconds(2.5f);
+        yield return new WaitForSeconds(3.0f);
 
         GetComponent<TypeWriter>().RunText("Neither of us have yet tested our new minigame", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.5f);
+        yield return new WaitForSeconds(4.0f);
 
         GetComponent<TypeWriter>().RunText("I could do it", player_text, 25.0f);
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.5f);
 
         GetComponent<TypeWriter>().RunText("Or find John", player_text, 25.0f);
 
-        yield return new WaitForSeconds(2.0f);
+        yield return new WaitForSeconds(2.5f);
 
         GetComponent<TypeWriter>().RunText("He usually hides in the server room", player_text, 25.0f);
 
-        yield return new WaitForSeconds(3.0f);
+        yield return new WaitForSeconds(3.5f);
 
         GetComponent<TypeWriter>().RunText("The door code is written somewhere\nand the animator had a gun on his desk...", player_text, 25.0f);
 
-        yield return new WaitForSeconds(4.0f);
+        yield return new WaitForSeconds(5.0f);
         
         player_text.text = string.Empty;
 
